@@ -1,0 +1,15 @@
+user_id,ts,event_type,event_id
+U1,2025-03-01T10:00:00Z,page_view,evt_001
+U1,2025-03-01T10:05:00Z,page_view,evt_002
+U1,2025-03-01T10:12:00Z,click,evt_003
+U2,2025-03-01T11:00:00Z,page_view,evt_004
+U2,2025-03-01T11:03:00Z,page_view,evt_005
+U1,2025-03-01T10:00:00Z,page_view,evt_001
+U3,2025-03-01T14:30:00Z,page_view,evt_006
+U3,2025-03-01T14:35:00Z,click,evt_007
+U3,2025-03-01T14:45:00Z,page_view,evt_008
+U1,2025-03-02T09:00:00Z,page_view,evt_009
+U1,2025-03-02T09:07:00Z,page_view,evt_010
+U2,2025-03-02T10:00:00Z,click,evt_011
+U4,2025-03-02T15:00:00Z,page_view,evt_012
+U4,2025-03-02T15:20:00Z,page_view,evt_013

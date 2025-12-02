@@ -1,0 +1,9 @@
+user_id,ts,event_type,event_id
+U1,2025-03-02T09:00:00Z,page_view,evt_009
+U1,2025-03-02T09:07:00Z,page_view,evt_010
+U2,2025-03-02T10:00:00Z,click,evt_011
+U4,2025-03-02T15:00:00Z,page_view,evt_012
+U4,2025-03-02T15:20:00Z,page_view,evt_013
+U5,2025-03-02T16:00:00Z,page_view,evt_014
+U5,2025-03-02T16:08:00Z,click,evt_015
+U5,2025-03-02T16:15:00Z,page_view,evt_016

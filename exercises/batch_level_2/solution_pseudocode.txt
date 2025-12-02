@@ -1,0 +1,31 @@
+// Batch Level 2: Incremental Daily Build with Idempotency
+// Write your pseudocode solution here
+
+FUNCTION build_user_daily(run_date):
+  // Step 1: Discover new files since last successful run
+  
+  
+  // Step 2: Load raw events and add date column
+  
+  
+  // Step 3: Deduplicate events using event_id
+  
+  
+  // Step 4: Calculate per-user daily metrics
+  //   - Count page_view events
+  //   - Approximate active minutes based on event timestamps
+  
+  
+  // Step 5: Merge/upsert into target table
+  //   - Use (user_id, dt) as key
+  //   - Only update recent dates (e.g., last 2 days)
+  
+  
+END FUNCTION
+
+// Discuss:
+// - How do you track which files have been processed?
+// - What happens if the same file is processed twice?
+// - How do you calculate active minutes from event timestamps?
+// - Why limit the reprocessing window? What are the trade-offs?
+// - How would you handle schema evolution (new event types)?

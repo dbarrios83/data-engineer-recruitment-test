@@ -1,0 +1,35 @@
+// Streaming Level 1: Rolling Device Stats
+// Write your pseudocode solution here
+
+STREAM process_device_stats:
+  // Step 1: Read stream and configure watermark
+  //   - What is a watermark?
+  //   - How late can events arrive?
+  
+  
+  // Step 2: Deduplicate events using event_id
+  
+  
+  // Step 3: Define sliding window
+  //   - Window length: 5 minutes
+  //   - Slide interval: 1 minute
+  //   - What's the difference between sliding and tumbling windows?
+  
+  
+  // Step 4: Group by device and window, aggregate temperature
+  
+  
+  // Step 5: Write stream to output
+  //   - Output mode: update, append, or complete?
+  //   - When are results emitted?
+  
+  
+END STREAM
+
+// Discuss:
+// - What happens to events that arrive after the watermark?
+// - How does state grow over time? When can old state be cleaned up?
+// - What's the trade-off between watermark delay and data completeness?
+// - How would you handle device failures (no readings for extended period)?
+// - What if you needed both 5-minute and 1-hour windows?
+// - How would you monitor this streaming job in production?

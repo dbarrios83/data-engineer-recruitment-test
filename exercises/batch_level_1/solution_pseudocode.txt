@@ -1,0 +1,29 @@
+// Batch Level 1: Country Revenue by Signup Month
+// Write your pseudocode solution here
+
+FUNCTION build_daily_country_signup_report(run_date):
+  // Step 1: Load and prepare users data
+  
+  
+  // Step 2: Load and prepare payments data
+  
+  
+  // Step 3: Map payments to user attributes
+  
+  
+  // Step 4: Handle missing/null values
+  
+  
+  // Step 5: Aggregate by country and signup month
+  
+  
+  // Step 6: Write partitioned output
+  
+  
+END FUNCTION
+
+// Discuss:
+// - How do you handle payments from unknown users?
+// - How do you handle null country values?
+// - What if duplicate payments exist in the input?
+// - How would you make this idempotent?

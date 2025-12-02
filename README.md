@@ -1,8 +1,41 @@
-# BigQuery Data Pipeline - Recruitment Test
+# Data Engineering Recruitment Test
 
-A simple data ingestion and transformation pipeline using Google BigQuery, Python, and SQL.
+This repository contains both:
+1. **Live Interview Pseudocode Exercises** - For technical interviews (NEW!)
+2. **BigQuery Data Pipeline Project** - Practical implementation exercise
 
-## Project Overview
+---
+
+## 🎯 **NEW: Live Interview Exercises**
+
+We've added comprehensive pseudocode problems for live technical interviews!
+
+### Quick Links
+- 📖 **[Quick Start Guide](QUICK_START.md)** - Start here!
+- 📋 **[Interview Exercises](INTERVIEW_EXERCISES.md)** - Problem statements
+- 👨‍🏫 **[Interviewer Guide](INTERVIEWER_GUIDE.md)** - How to conduct and grade
+
+### Three Scenarios Included
+1. **Batch Level 1**: Country Revenue by Signup Month (15 min)
+2. **Batch Level 2**: Incremental Daily Build with Idempotency (20 min)
+3. **Streaming Level 1**: Rolling Device Stats (15 min - optional)
+
+Each exercise includes:
+- ✅ Problem statements
+- ✅ Sample data files
+- ✅ Solution templates
+- ✅ Reference implementations
+- ✅ Grading rubrics
+
+**See `QUICK_START.md` for complete details!**
+
+---
+
+## 💼 BigQuery Data Pipeline Project
+
+A practical data ingestion and transformation pipeline using Google BigQuery, Python, and SQL.
+
+### Project Overview
 
 This pipeline demonstrates:
 - **Data Ingestion**: Load CSV/JSON files into BigQuery
