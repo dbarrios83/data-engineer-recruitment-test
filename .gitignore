@@ -1,0 +1,78 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment variables
+.env
+.env.local
+
+# GCP credentials
+*.json
+!config/*.json.example
+service-account*.json
+credentials.json
+
+# Data files (large datasets)
+data/*.csv
+data/*.json
+data/*.parquet
+!data/.gitkeep
+!data/sample_*.csv
+
+# Logs
+*.log
+logs/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*.ipynb
+
+# Airflow
+airflow.cfg
+airflow.db
+airflow-webserver.pid
+logs/
+dags/__pycache__/
+
+# OS
+Thumbs.db

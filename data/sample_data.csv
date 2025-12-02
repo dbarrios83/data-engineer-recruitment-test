@@ -1,0 +1,6 @@
+id,name,email,created_at,amount
+1,John Doe,john.doe@example.com,2024-01-01 10:00:00,150.50
+2,Jane Smith,jane.smith@example.com,2024-01-01 11:30:00,200.00
+3,Bob Johnson,bob.johnson@example.com,2024-01-02 09:15:00,75.25
+4,Alice Williams,alice.w@example.com,2024-01-02 14:20:00,300.00
+5,Charlie Brown,charlie@example.com,2024-01-03 08:45:00,125.75
